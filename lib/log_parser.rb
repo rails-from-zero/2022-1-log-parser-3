@@ -7,6 +7,8 @@ require_relative "log_parser/tokenizer"
 require_relative "log_parser/accumulator"
 require_relative "log_parser/aggregator"
 require_relative "log_parser/aggregator_result"
+require_relative "log_parser/formatter"
+require_relative "log_parser/parser"
 
 module LogParser
   class Error < StandardError; end
